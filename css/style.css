@@ -1,0 +1,208 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais do body */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../img/bg/bg.png'); /* Verifique o caminho da imagem */
+    background-size: cover; /* Tamanho da imagem */
+    background-position: center; /* Posição da imagem */
+    background-repeat: no-repeat; /* Repetição da imagem */
+    color: #ffffff; /* Texto branco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da viewport */
+    margin: 0;
+  }
+  
+  /* Logo no canto superior esquerdo */
+  .logo {
+    position: fixed; /* Fixa a logo na tela */
+    top: 20px; /* Distância do topo */
+    left: 20px; /* Distância da esquerda */
+    width: 100px; /* Tamanho da logo */
+    height: auto; /* Mantém a proporção */
+    animation: float 3s ease-in-out infinite; /* Animação de flutuação */
+  }
+  
+  /* Animação de flutuação */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0); /* Posição inicial e final */
+    }
+    50% {
+      transform: translateY(-10px); /* Move para cima */
+    }
+  }
+  
+  /* Container principal */
+  .container {
+    background-color: #1c1c3d; /* Azul escuro */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5); /* Sombra dourada */
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+  }
+  
+  /* Estilos para títulos */
+  h1 {
+    color: #ffd700; /* Dourado */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.7); /* Efeito brilho */
+  }
+  
+  /* Estilos para parágrafos */
+  p {
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para a lista de seleção */
+  .custom-select {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .custom-select select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ffd700; /* Dourado */
+    border-radius: 5px;
+    background-color: #2a2a5c; /* Azul médio */
+    color: #ffffff;
+    font-size: 16px;
+    appearance: none; /* Remove o estilo padrão do select */
+    cursor: pointer;
+  }
+  
+  .custom-select::after {
+    content: "▼";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    color: #ffd700;
+    pointer-events: none;
+  }
+  
+  .custom-select select:hover {
+    background-color: #3a3a6c; /* Azul mais claro */
+    border-color: #ffcc00; /* Dourado mais brilhante */
+  }
+  
+  /* Estilos para a área de exibição de informações */
+  .info-display {
+    background-color: #2a2a5c; /* Azul médio */
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ffd700; /* Dourado */
+    color: #ffffff;
+    text-align: left;
+    max-height: 300px; /* Altura máxima */
+    overflow-y: auto; /* Scroll vertical */
+  }
+  
+  .info-display h2 {
+    color: #ffd700; /* Dourado */
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .info-display p {
+    margin: 0;
+    font-size: 1rem;
+    word-wrap: break-word; /* Quebrar palavras longas */
+  }
+  
+  /* Estilos para a barra de rolagem */
+  .info-display::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+  }
+  
+  .info-display::-webkit-scrollbar-thumb {
+    background-color: #ffd700; /* Cor da bar ```css
+  ra de rolagem */
+    border-radius: 5px; /* Bordas arredondadas */
+  }
+  
+  .info-display::-webkit-scrollbar-track {
+    background: #1c1c3d; /* Cor do fundo da barra de rolagem */
+  }
+  
+  /* Estilos para as imagens */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .animated-image {
+    width: 80px; /* Tamanho das imagens */
+    height: auto; /* Mantém a proporção */
+    margin: 0 10px; /* Espaçamento entre as imagens */
+    transition: transform 0.3s; /* Transição suave */
+  }
+  
+  .animated-image:hover {
+    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+  }
+
+  /* Logo no canto superior esquerdo com brilho */
+.logo {
+    position: fixed; /* Fixa a logo na tela */
+    top: 20px; /* Distância do topo */
+    left: 20px; /* Distância da esquerda */
+    width: 100px; /* Tamanho da logo */
+    height: auto; /* Mantém a proporção */
+    animation: float 3s ease-in-out infinite; /* Animação de flutuação */
+    filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.8)); /* Efeito de brilho dourado */
+  }
+  
+  /* Animação de flutuação */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0); /* Posição inicial e final */
+    }
+    50% {
+      transform: translateY(-10px); /* Move para cima */
+    }
+  }
+
+  /* Estilo dos Botões de Redes Sociais */
+.social-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .social-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-button img {
+    width: 24px;
+    height: 24px;
+  }
