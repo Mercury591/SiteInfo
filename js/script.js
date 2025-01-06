@@ -82,7 +82,7 @@ const items = {
     item5: {
       title: "DROP DE BOSS",
       description: `
-        <span class="boss-refin">BOSS REFIN</span><br>
+        <span class="boss-refin"><strong>BOSS REFIN</strong></span><br>
         - <strong>Drop Padrão:</strong><br>
         2 - 4 Yellow<br>
         2 - 3 Violet<br>
@@ -90,7 +90,7 @@ const items = {
         - <strong>Drop especial:</strong><br>
         Após 15 Boss, 10% de chance de dropar 1 Pack de 5 Bolls.<br>
         Após matar 10 Boss, drop de 1 Cristal Mágico.<br><br>
-        <span class="boss-unico">BOSS ÚNICO</span><br>
+        <span class="boss-unico"><strong>BOSS ÚNICO</strong></span><br>
         - <strong>Drop Padrão:</strong><br>
         3 - 5 Yellow<br>
         3 - 4 Violet<br>
@@ -99,7 +99,7 @@ const items = {
         - <strong>Drop especial:</strong><br>
         Após 10 Boss, 10% de chance de dropar 1 Pack de 5 Bolls.<br>
         Após matar 5 Boss, drop de 1 Cristal Mágico.<br><br>
-        <span class="boss-elite">BOSS ELITE</span><br>
+        <span class="boss-elite"><strong>BOSS ELITE</strong></span><br>
         - <strong>Drop Padrão:</strong><br>
         4 - 5 Yellow<br>
         3 - 5 Violet<br>

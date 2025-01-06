@@ -206,3 +206,21 @@
     width: 24px;
     height: 24px;
   }
+
+  .boss-refin {
+    color: rgb(0, 255, 8);
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+
+  .boss-unico {
+    color: rgb(0, 119, 255);
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+
+  .boss-elite {
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    font-size: 18px;
+  }
