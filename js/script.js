@@ -147,10 +147,10 @@ const items = {
       description: `
         <strong>LOCALIZAÇÃO PADRÃO</strong><br>
         - Localização padrão da Aranha Rainha.<br><br>
-        <strong>DROP</strong><br>
-        - Pack 30 Unis<br>
-        - Pack 30 Bolls<br>
-        - 25K de EPs<br><br>
+        <strong>DROP</strong><br><br>
+        - Pack 30 Unis<br><br>
+        - Pack 30 Bolls<br><br>
+        - 25K de EPs<br><br><br>
         <strong>CHANCE DE DROPAR 1 DAS SEGUINTES SKILLS:</strong><br><br>
         - Ressurgence<br><br>
         - Ressurect<br><br>
