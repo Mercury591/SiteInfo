@@ -145,7 +145,7 @@ const items = {
     item7: {
       title: "ARANHA RAINHA",
       description: `
-        <strong>LOCALIZAÇÃO PADRÃO</strong><br>
+        <strong>LOCALIZAÇÃO PADRÃO</strong><br><br>
         - Localização padrão da Aranha Rainha.<br><br>
         <strong>DROP</strong><br><br>
         - Pack 30 Unis<br><br>
