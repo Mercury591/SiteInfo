@@ -141,6 +141,23 @@ const items = {
         - Você precisa que me entregue 50.000 EP's.<br><br>
         - Você precisa que me entregue 50.000 EP's.
       `
+    },
+    item7: {
+      title: "ARANHA RAINHA",
+      description: `
+        <strong>LOCALIZAÇÃO PADRÃO</strong><br>
+        - Localização padrão da Aranha Rainha.<br><br>
+        <strong>DROP</strong><br>
+        - Pack 30 Unis<br>
+        - Pack 30 Bolls<br>
+        - 25K de EPs<br><br>
+        <strong>CHANCE DE DROPAR 1 DAS SEGUINTES SKILLS:</strong><br><br>
+        - Ressurgence<br><br>
+        - Ressurect<br><br>
+        - Trace<br><br>
+        - Invisibiliti<br><br>
+        - Chain Chop
+      `
     }
   };
 
