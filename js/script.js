@@ -158,6 +158,56 @@ const items = {
         - Invisibiliti<br><br>
         - Chain Chop
       `
+    },
+    item8: {
+      title: "CASA DE APOSTAS",
+      description: `
+        <strong>CASA DE APOSTAS</strong><br>
+        Você pode apostar seus EPs.<br><br>
+        <strong>APOSTAS</strong><br>
+        - 10K de EPs.<br>
+        Premiações:<br><br>
+        5K de EPs.<br>
+        10K de EPs.<br>
+        15K de EPs.<br>
+        20K de EPs.<br><br>
+        - 20K de EPs.<br>
+        Premiações:<br><br>
+        10K de EPs.<br>
+        20K de EPs.<br>
+        30K de EPs.<br>
+        40K de EPs.<br><br>
+        - 50K de EPs.<br>
+        Premiações:<br><br>
+        25K de EPs.<br>
+        50K de EPs.<br>
+        75K de EPs.<br>
+        100K de EPs.<br><br>
+        - 100K de EPs.<br>
+        Premiações:<br><br>
+        50K de EPs.<br>
+        100K de EPs.<br>
+        150K de EPs.<br>
+        200K de EPs.<br><br>
+        - 500K de EPs.<br>
+        Premiações:<br><br>
+        250K de EPs.<br>
+        500K de EPs.<br>
+        750K de EPs.<br>
+        1KK de EPs.<br><br>
+        - 1KK de EPs.<br>
+        Premiações:<br><br>
+        500K de EPs.<br>
+        1KK de EPs.<br>
+        1.5KK de EPs.<br>
+        1KK de EPs.<br><br>
+        - 2KK de EPs.<br>
+        Premiações:<br><br>
+        1KK de EPs.<br>
+        2KK de EPs.<br>
+        3KK de EPs.<br>
+        4KK de EPs.
+      `
     }
   };
 
